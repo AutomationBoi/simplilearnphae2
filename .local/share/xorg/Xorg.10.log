@@ -923,3 +923,330 @@ Release Date: 2017-03-02
 [  8701.724] rdpRRGetPanning: 0x55f4a6ca3a30
 [  8703.010] rdpDeferredUpdateCallback: reschedule rect_id 28141 rect_id_ack 28140
 [  8703.095] rdpDeferredUpdateCallback: reschedule rect_id 28142 rect_id_ack 28141
+[  8902.370] rdpDeferredUpdateCallback: reschedule rect_id 28765 rect_id_ack 28764
+[  8904.590] rdpDeferredUpdateCallback: reschedule rect_id 28800 rect_id_ack 28799
+[  8946.435] rdpDeferredUpdateCallback: reschedule rect_id 28921 rect_id_ack 28920
+[  9545.923] rdpSaveScreen:
+[ 10671.748] rdpSaveScreen:
+[ 10962.305] rdpDeferredUpdateCallback: reschedule rect_id 30004 rect_id_ack 30003
+[ 11191.567] rdpDeferredUpdateCallback: reschedule rect_id 30900 rect_id_ack 30899
+[ 11466.932] rdpDeferredUpdateCallback: reschedule rect_id 31671 rect_id_ack 31670
+[ 11575.032] rdpClientConRecv: g_sck_recv failed(returned 0)
+[ 11575.032] rdpClientConDisconnect:
+[ 11575.032] rdpClientConDisconnect: clientCon removed from dev list
+[ 11575.032] rdpClientConRecvMsg: error
+[ 11575.032] rdpClientConCheck: rdpClientConGotData failed
+[ 11803.392] rdpClientConGotConnection:
+[ 11803.392] rdpClientConGotConnection: g_sck_accept ok new_sck 17
+[ 11803.392] rdpClientConGotConnection: adding only clientCon
+[ 11803.393] rdpClientConProcessMsgVersion: version 0 0 0 1
+[ 11803.393] rdpClientConProcessScreenSizeMsg: set width 1920 height 937 bpp 16
+[ 11803.393] rdpClientConProcessScreenSizeMsg: shmemid 4390941 shmemptr 0x7fe7ff6eb000
+[ 11803.393] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1920 cy 937
+[ 11803.395] KbdSync: toggling num lock
+[ 11803.395] rdpkeybChangeKeyboardControl:
+[ 11803.395] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11803.396] rdpkeybChangeKeyboardControl:
+[ 11803.396] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11803.397] rdpClientConProcessMsgClientInfo:
+[ 11803.397]   got client info bytes 5792
+[ 11803.397]   jpeg support 0
+[ 11803.397]   offscreen support 0
+[ 11803.397]   offscreen size 0
+[ 11803.397]   offscreen entries 0
+[ 11803.397]   client supports glyph cache but server disabled
+[ 11803.397]   client can not do offscreen to offscreen blits
+[ 11803.397]   client can do new(color) cursor
+[ 11803.397]   client can not do multimon
+[ 11803.397] rdpRRSetRdpOutputs: numCrtcs 1
+[ 11803.397] rdpRRSetRdpOutputs: numOutputs 1
+[ 11803.398] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[ 11803.398] rdpkeybChangeKeyboardControl:
+[ 11803.398] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11803.399] rdpkeybChangeKeyboardControl:
+[ 11803.399] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetInfo:
+[ 11803.401] rdpRRGetInfo:
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.401] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetInfo:
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.402] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.403] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.404] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.405] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.406] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.407] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.407] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.407] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.414] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.414] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 11803.499] rdpInDeferredUpdateCallback:
+[ 11803.499] rdpkeybChangeKeyboardControl:
+[ 11803.499] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11803.499] rdpkeybChangeKeyboardControl:
+[ 11803.499] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 11850.368] rdpkeybBell:
+[ 11850.368] rdpkeybBell:
+[ 11850.368] rdpkeybBell:
+[ 11850.408] rdpkeybBell:
+[ 11850.408] rdpkeybBell:
+[ 11850.408] rdpkeybBell:
+[ 11850.420] rdpkeybBell:
+[ 11850.420] rdpkeybBell:
+[ 11850.420] rdpkeybBell:
+[ 11850.470] rdpkeybBell:
+[ 11850.470] rdpkeybBell:
+[ 11850.470] rdpkeybBell:
+[ 11850.520] rdpkeybBell:
+[ 11850.520] rdpkeybBell:
+[ 11850.520] rdpkeybBell:
+[ 11850.571] rdpkeybBell:
+[ 11850.571] rdpkeybBell:
+[ 11850.571] rdpkeybBell:
+[ 11850.637] rdpkeybBell:
+[ 11850.637] rdpkeybBell:
+[ 11850.637] rdpkeybBell:
+[ 11850.697] rdpkeybBell:
+[ 11850.697] rdpkeybBell:
+[ 11850.697] rdpkeybBell:
+[ 11850.721] rdpkeybBell:
+[ 11850.721] rdpkeybBell:
+[ 11850.721] rdpkeybBell:
+[ 11850.770] rdpkeybBell:
+[ 11850.770] rdpkeybBell:
+[ 11850.770] rdpkeybBell:
+[ 12006.661] rdpDeferredUpdateCallback: reschedule rect_id 903 rect_id_ack 902
+[ 12008.108] rdpDeferredUpdateCallback: reschedule rect_id 913 rect_id_ack 912
+[ 12185.852] rdpDeferredUpdateCallback: reschedule rect_id 1402 rect_id_ack 1401
+[ 12215.817] rdpDeferredUpdateCallback: reschedule rect_id 1581 rect_id_ack 1580
+[ 12216.203] rdpDeferredUpdateCallback: reschedule rect_id 1588 rect_id_ack 1587
+[ 12399.615] rdpDeferredUpdateCallback: reschedule rect_id 2734 rect_id_ack 2733
+[ 12405.552] rdpDeferredUpdateCallback: reschedule rect_id 2825 rect_id_ack 2824
+[ 12406.354] rdpDeferredUpdateCallback: reschedule rect_id 2840 rect_id_ack 2839
+[ 12436.102] rdpDeferredUpdateCallback: reschedule rect_id 3111 rect_id_ack 3110
+[ 12460.671] rdpDeferredUpdateCallback: reschedule rect_id 3398 rect_id_ack 3397
+[ 12461.327] rdpDeferredUpdateCallback: reschedule rect_id 3409 rect_id_ack 3408
+[ 12461.471] rdpDeferredUpdateCallback: reschedule rect_id 3411 rect_id_ack 3410
+[ 12461.610] rdpDeferredUpdateCallback: reschedule rect_id 3413 rect_id_ack 3412
+[ 12461.871] rdpDeferredUpdateCallback: reschedule rect_id 3417 rect_id_ack 3416
+[ 12462.306] rdpDeferredUpdateCallback: reschedule rect_id 3423 rect_id_ack 3422
+[ 12550.189] rdpDeferredUpdateCallback: reschedule rect_id 4240 rect_id_ack 4239
+[ 12578.848] rdpDeferredUpdateCallback: reschedule rect_id 4509 rect_id_ack 4508
+[ 12583.075] rdpDeferredUpdateCallback: reschedule rect_id 4558 rect_id_ack 4557
+[ 12625.103] rdpDeferredUpdateCallback: reschedule rect_id 4784 rect_id_ack 4783
+[ 12665.029] rdpDeferredUpdateCallback: reschedule rect_id 5324 rect_id_ack 5323
+[ 12681.686] rdpDeferredUpdateCallback: reschedule rect_id 5500 rect_id_ack 5499
+[ 12868.626] rdpDeferredUpdateCallback: reschedule rect_id 6913 rect_id_ack 6912
+[ 12894.821] rdpDeferredUpdateCallback: reschedule rect_id 7194 rect_id_ack 7193
+[ 13257.973] rdpDeferredUpdateCallback: reschedule rect_id 9102 rect_id_ack 9101
+[ 13263.575] rdpDeferredUpdateCallback: reschedule rect_id 9189 rect_id_ack 9188
+[ 13263.866] rdpDeferredUpdateCallback: reschedule rect_id 9193 rect_id_ack 9192
+[ 13264.387] rdpDeferredUpdateCallback: reschedule rect_id 9201 rect_id_ack 9200
+[ 13278.284] rdpDeferredUpdateCallback: reschedule rect_id 9306 rect_id_ack 9305
+[ 13286.500] rdpDeferredUpdateCallback: reschedule rect_id 9372 rect_id_ack 9371
+[ 13344.092] rdpDeferredUpdateCallback: reschedule rect_id 9920 rect_id_ack 9919
+[ 13345.584] rdpDeferredUpdateCallback: reschedule rect_id 9943 rect_id_ack 9942
+[ 13345.669] rdpDeferredUpdateCallback: reschedule rect_id 9944 rect_id_ack 9943
+[ 13345.756] rdpDeferredUpdateCallback: reschedule rect_id 9945 rect_id_ack 9944
+[ 13345.890] rdpDeferredUpdateCallback: reschedule rect_id 9947 rect_id_ack 9946
+[ 13390.137] rdpDeferredUpdateCallback: reschedule rect_id 10209 rect_id_ack 10208
+[ 13566.973] rdpDeferredUpdateCallback: reschedule rect_id 11098 rect_id_ack 11097
+[ 13567.060] rdpDeferredUpdateCallback: reschedule rect_id 11099 rect_id_ack 11098
+[ 13567.209] rdpDeferredUpdateCallback: reschedule rect_id 11101 rect_id_ack 11100
+[ 13673.952] rdpDeferredUpdateCallback: reschedule rect_id 11506 rect_id_ack 11505
+[ 13675.765] rdpDeferredUpdateCallback: reschedule rect_id 11531 rect_id_ack 11530
+[ 13701.986] rdpDeferredUpdateCallback: reschedule rect_id 11758 rect_id_ack 11757
+[ 13702.125] rdpDeferredUpdateCallback: reschedule rect_id 11760 rect_id_ack 11759
+[ 13813.615] rdpDeferredUpdateCallback: reschedule rect_id 12143 rect_id_ack 12142
+[ 13816.126] rdpDeferredUpdateCallback: reschedule rect_id 12168 rect_id_ack 12167
+[ 13832.471] rdpDeferredUpdateCallback: reschedule rect_id 12328 rect_id_ack 12327
+[ 13969.642] rdpDeferredUpdateCallback: reschedule rect_id 12858 rect_id_ack 12857
+[ 13986.710] rdpDeferredUpdateCallback: reschedule rect_id 12985 rect_id_ack 12984
+[ 14100.126] rdpDeferredUpdateCallback: reschedule rect_id 13705 rect_id_ack 13704
+[ 14100.272] rdpDeferredUpdateCallback: reschedule rect_id 13707 rect_id_ack 13706
+[ 14190.571] rdpDeferredUpdateCallback: reschedule rect_id 14584 rect_id_ack 14583
+[ 14310.059] rdpDeferredUpdateCallback: reschedule rect_id 15342 rect_id_ack 15341
+[ 14562.510] rdpDeferredUpdateCallback: reschedule rect_id 16797 rect_id_ack 16796
+[ 14562.595] rdpDeferredUpdateCallback: reschedule rect_id 16798 rect_id_ack 16797
+[ 14934.233] rdpDeferredUpdateCallback: reschedule rect_id 18538 rect_id_ack 18537
+[ 15042.163] rdpDeferredUpdateCallback: reschedule rect_id 18950 rect_id_ack 18949
+[ 15190.427] rdpDeferredUpdateCallback: reschedule rect_id 19511 rect_id_ack 19510
+[ 15274.298] rdpDeferredUpdateCallback: reschedule rect_id 20138 rect_id_ack 20137
+[ 15274.435] rdpDeferredUpdateCallback: reschedule rect_id 20140 rect_id_ack 20139
+[ 15403.238] rdpDeferredUpdateCallback: reschedule rect_id 20835 rect_id_ack 20834
+[ 15403.526] rdpDeferredUpdateCallback: reschedule rect_id 20840 rect_id_ack 20839
+[ 15403.709] rdpDeferredUpdateCallback: reschedule rect_id 20843 rect_id_ack 20842
+[ 15422.724] rdpDeferredUpdateCallback: reschedule rect_id 21042 rect_id_ack 21041
+[ 15424.837] rdpDeferredUpdateCallback: reschedule rect_id 21064 rect_id_ack 21063
+[ 15461.816] rdpDeferredUpdateCallback: reschedule rect_id 21417 rect_id_ack 21416
+[ 15653.431] rdpDeferredUpdateCallback: reschedule rect_id 21991 rect_id_ack 21990
+[ 15740.946] rdpDeferredUpdateCallback: reschedule rect_id 22578 rect_id_ack 22577
+[ 15961.739] rdpDeferredUpdateCallback: reschedule rect_id 23508 rect_id_ack 23507
+[ 15986.376] rdpDeferredUpdateCallback: reschedule rect_id 23606 rect_id_ack 23605
+[ 17018.163] rdpDeferredUpdateCallback: reschedule rect_id 26388 rect_id_ack 26387
+[ 17018.358] rdpDeferredUpdateCallback: reschedule rect_id 26391 rect_id_ack 26390
+[ 17095.136] rdpDeferredUpdateCallback: reschedule rect_id 26850 rect_id_ack 26849
+[ 17098.857] rdpDeferredUpdateCallback: reschedule rect_id 26893 rect_id_ack 26892
+[ 17202.727] rdpDeferredUpdateCallback: reschedule rect_id 27645 rect_id_ack 27644
+[ 17253.686] rdpDeferredUpdateCallback: reschedule rect_id 27956 rect_id_ack 27955
+[ 17462.106] rdpDeferredUpdateCallback: reschedule rect_id 28943 rect_id_ack 28942
+[ 17462.453] rdpDeferredUpdateCallback: reschedule rect_id 28949 rect_id_ack 28948
+[ 17505.987] rdpDeferredUpdateCallback: reschedule rect_id 29512 rect_id_ack 29511
+[ 17643.983] rdpDeferredUpdateCallback: reschedule rect_id 29970 rect_id_ack 29969
+[ 17644.074] rdpDeferredUpdateCallback: reschedule rect_id 29971 rect_id_ack 29970
+[ 17649.462] rdpDeferredUpdateCallback: reschedule rect_id 30019 rect_id_ack 30018
+[ 17649.603] rdpDeferredUpdateCallback: reschedule rect_id 30021 rect_id_ack 30020
+[ 18009.301] rdpDeferredUpdateCallback: reschedule rect_id 31607 rect_id_ack 31606
+[ 18009.387] rdpDeferredUpdateCallback: reschedule rect_id 31608 rect_id_ack 31607
+[ 18011.351] rdpDeferredUpdateCallback: reschedule rect_id 31628 rect_id_ack 31627
+[ 18022.349] rdpDeferredUpdateCallback: reschedule rect_id 31761 rect_id_ack 31760
+[ 18088.399] rdpDeferredUpdateCallback: reschedule rect_id 32364 rect_id_ack 32363
+[ 18099.314] rdpDeferredUpdateCallback: reschedule rect_id 32498 rect_id_ack 32497
+[ 18099.505] rdpDeferredUpdateCallback: reschedule rect_id 32501 rect_id_ack 32500
+[ 18148.239] rdpDeferredUpdateCallback: reschedule rect_id 33063 rect_id_ack 33062
+[ 18148.324] rdpDeferredUpdateCallback: reschedule rect_id 33064 rect_id_ack 33063
+[ 18148.409] rdpDeferredUpdateCallback: reschedule rect_id 33065 rect_id_ack 33064
+[ 18609.586] rdpDeferredUpdateCallback: reschedule rect_id 34289 rect_id_ack 34288
+[ 18636.517] rdpDeferredUpdateCallback: reschedule rect_id 34488 rect_id_ack 34487
+[ 18784.631] rdpClientConGotConnection:
+[ 18784.631] rdpClientConGotConnection: g_sck_accept ok new_sck 24
+[ 18784.631] rdpClientConGotConnection: disconnecting only clientCon
+[ 18784.631] rdpClientConDisconnect:
+[ 18784.631] rdpClientConDisconnect: clientCon removed from dev list
+[ 18784.631] rdpClientConGotConnection: adding only clientCon
+[ 18784.633] rdpClientConProcessMsgVersion: version 0 0 0 1
+[ 18784.633] rdpClientConProcessScreenSizeMsg: set width 1920 height 937 bpp 16
+[ 18784.633] rdpClientConProcessScreenSizeMsg: shmemid 4423710 shmemptr 0x7fe7ff37c000
+[ 18784.633] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1920 cy 937
+[ 18784.673] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.713] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.753] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.793] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.833] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.873] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.913] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.953] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18784.993] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.034] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.074] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.114] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.154] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.194] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.234] rdpDeferredUpdateCallback: reschedule rect_id 0 rect_id_ack 0
+[ 18785.236] rdpClientConProcessMsgClientInfo:
+[ 18785.236]   got client info bytes 5792
+[ 18785.236]   jpeg support 0
+[ 18785.236]   offscreen support 0
+[ 18785.236]   offscreen size 0
+[ 18785.236]   offscreen entries 0
+[ 18785.236]   client supports glyph cache but server disabled
+[ 18785.236]   client can not do offscreen to offscreen blits
+[ 18785.236]   client can do new(color) cursor
+[ 18785.236]   client can not do multimon
+[ 18785.236] rdpRRSetRdpOutputs: numCrtcs 1
+[ 18785.236] rdpRRSetRdpOutputs: numOutputs 1
+[ 18785.238] rdpLoadLayout: keylayout 0x00000409 variant  display 10
+[ 18785.238] rdpkeybChangeKeyboardControl:
+[ 18785.238] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 18785.240] rdpkeybChangeKeyboardControl:
+[ 18785.240] rdpkeybChangeKeyboardControl: autoRepeat on
+[ 18785.244] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.244] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.244] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.244] rdpRRGetInfo:
+[ 18785.244] rdpRRGetInfo:
+[ 18785.244] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetInfo:
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.245] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.246] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.247] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.247] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.247] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.248] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.249] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.249] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.250] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.250] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.251] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.252] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.253] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.253] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.253] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.253] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 18785.343] rdpInDeferredUpdateCallback:
+[ 18785.343] rdpkeybChangeKeyboardControl:
+[ 18785.343] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 18785.343] rdpkeybChangeKeyboardControl:
+[ 18785.343] rdpkeybChangeKeyboardControl: autoRepeat off
+[ 19187.801] rdpDeferredUpdateCallback: reschedule rect_id 1302 rect_id_ack 1301
+[ 19187.936] rdpDeferredUpdateCallback: reschedule rect_id 1304 rect_id_ack 1303
+[ 19188.029] rdpDeferredUpdateCallback: reschedule rect_id 1305 rect_id_ack 1304
+[ 19188.511] rdpDeferredUpdateCallback: reschedule rect_id 1313 rect_id_ack 1312
+[ 19678.764] rdpDeferredUpdateCallback: reschedule rect_id 2547 rect_id_ack 2546
+[ 19751.644] rdpDeferredUpdateCallback: reschedule rect_id 3223 rect_id_ack 3222
+[ 19751.732] rdpDeferredUpdateCallback: reschedule rect_id 3224 rect_id_ack 3223
+[ 20059.785] rdpDeferredUpdateCallback: reschedule rect_id 5031 rect_id_ack 5030
+[ 20202.268] rdpDeferredUpdateCallback: reschedule rect_id 5964 rect_id_ack 5963
+[ 20212.184] rdpDeferredUpdateCallback: reschedule rect_id 6115 rect_id_ack 6114
+[ 20221.169] rdpDeferredUpdateCallback: reschedule rect_id 6203 rect_id_ack 6202
+[ 20221.660] rdpDeferredUpdateCallback: reschedule rect_id 6211 rect_id_ack 6210
+[ 20222.553] rdpDeferredUpdateCallback: reschedule rect_id 6223 rect_id_ack 6222
+[ 20222.703] rdpDeferredUpdateCallback: reschedule rect_id 6225 rect_id_ack 6224
+[ 20246.120] rdpRRGetPanning: 0x55f4a6ca3a30
+[ 20246.129] rdpRRGetPanning: 0x55f4a6ca3a30
