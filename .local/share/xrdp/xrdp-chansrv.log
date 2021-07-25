@@ -1,0 +1,21 @@
+[20210725-06:15:57] [CORE ] main: app started pid 13908(0x00003654)
+[20210725-06:17:20] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1627193831848:307868325
+[20210725-06:17:20] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1627193831848:307868325
+[20210725-06:26:32] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1627193831848:307868325
+[20210725-06:26:32] [ERROR] clipboard_event_selection_request: unknown target resource-transfer-format:1627193831848:307868325
+[20210725-06:44:11] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:32] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:49] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:44:49] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:45:05] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-06:45:05] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x0000021f
+[20210725-07:31:13] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x00000224
+[20210725-07:32:13] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x00000224
+[20210725-07:52:21] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x00000224
+[20210725-07:52:29] [ERROR] clipboard_event_selection_request: unknown target unknown atom 0x00000224
