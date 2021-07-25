@@ -44,6 +44,8 @@ public class done extends HttpServlet {
 		//doGet(request, response);
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
+		ServletContext context = getServletContext();
+		String fullPath = context.getRealPath("/WEB-INF/booking.txt");
 		BufferedReader br = new BufferedReader(new FileReader(fullPath));
 		String line = "";  
 		String splitBy = ",";  
@@ -59,11 +61,12 @@ public class done extends HttpServlet {
 					+ "<th>Airlines</th>"
 					+ "<th>Price Per Head</th>"
 					+ "<th>Total Price</th>"
-					+"<th>Link To Register"
+					+"<th>Payment Link</th>"
 					+ "<tr>"
 					+"<td>"+flight_data[0]+"</td>"
 					+"<td>"+flight_data[1]+"</td>"
-					+ "<td>"+flight_data[2]+"</td><td>"+flight_data[3]+"</td><td>"+flight_data[4]+"</td></tr></table>");
+					+ "<td>"+flight_data[2]+"</td><td>"+flight_data[3]+"</td><td>"+flight_data[4]+"</td><td>"+
+					"<a href=\""+response.encodeURL("/FlyAway/complete")+"\">Payment"+"</td></tr></table>");
 
 	}
 

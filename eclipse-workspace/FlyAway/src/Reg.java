@@ -55,7 +55,7 @@ public class Reg extends HttpServlet {
 			Integer price_per_head=Integer.parseInt(flight_data[3]);
 			if(ct==cnt) {
 				out.write("Please Enter the Details and proceed with payment");
-				out.write("<form method=\"post\" action=\"/done\">"
+				out.write("<form method=\"post\" action=\"/FlyAway/done\">"
 						+ "<input type=\"text\" placeholder=\"Name\">"
 						+ "<input type=\"number\" placeholder=\"Aadhar Card Number\">"
 						+ "<button type=\"submit\">SUBMIT</button>"

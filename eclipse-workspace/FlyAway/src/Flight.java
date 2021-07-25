@@ -52,6 +52,7 @@ public class Flight extends HttpServlet {
             LocalDate.parse(date, sdf);
         } catch (DateTimeParseException e) {
             out.write("Please Provide Valid date in format yyyy-mm-dd");
+            return;
         }
 		BufferedReader br = new BufferedReader(new FileReader(fullPath));
 		String line = "";  
